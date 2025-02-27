@@ -11225,7 +11225,7 @@ blockquote > p {
 ===============================*/
 .contact-map {
   width: 100%;
-  height: 380px;
+  height: 500px;
 }
 .contact-map iframe {
   width: 100%;
@@ -11236,11 +11236,11 @@ blockquote > p {
   margin-bottom: 75px;
 }
 .contact-map-two iframe {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
 }
 .contact__info-item {
   margin-bottom: 30px;
@@ -11250,6 +11250,9 @@ blockquote > p {
   font-size: 26px;
   font-weight: 600;
   text-transform: capitalize;
+}
+.contact__info-item:hover .title {
+  color: var(--tg-theme-primary);
 }
 @media (max-width: 767.98px) {
   .contact__info-item .title {
@@ -11279,9 +11282,9 @@ blockquote > p {
   color: var(--tg-theme-primary);
 }
 .contact__form-wrap {
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 20px 0 rgb(0, 0, 0);
   background: var(--tg-color-white-default);
-  border: 1px solid #eee9e9;
+  border: 1px solid #13024a;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -o-border-radius: 10px;
@@ -11289,6 +11292,7 @@ blockquote > p {
   border-radius: 10px;
   padding: 30px 40px 40px;
   margin-top: 40px;
+  
 }
 @media (max-width: 767.98px) {
   .contact__form-wrap {
@@ -11910,5 +11914,7 @@ blockquote > p {
 .copyright-text-three p a:hover {
   color: var(--tg-theme-primary);
 }
+
+
 
 /*# sourceMappingURL=main.css.map */
